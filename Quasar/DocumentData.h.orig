@@ -1,0 +1,101 @@
+<<<<<<< local
+/*
+=======
+/*----------------------------------------------
+>>>>>>> other
+	DocumentData.h
+	Author : Douglas Chidester
+	Created: April 22, 2013
+
+<<<<<<< local
+	Last Update: 4/25/13 DC
+=======
+	Last Update: 4/26/2013  sc
+>>>>>>> other
+
+<<<<<<< local
+	Holds a pathname to a text file on the hard drive.
+*/
+=======
+	Descrip:  DocumentData class properties
+
+----------------------------------------------*/
+>>>>>>> other
+
+#ifndef	DOCUMENTDATA_H
+#define DOCUMENTDATA_H
+
+<<<<<<< local
+=======
+#include "Node.h"
+>>>>>>> other
+#include <string>
+using namespace std;
+
+class DocumentData
+{
+public:
+<<<<<<< local
+	DocumentData()	{}
+	~DocumentData()	{}
+=======
+	DocumentData(string);
+	~DocumentData();
+>>>>>>> other
+
+	//set methods
+<<<<<<< local
+	void setFilePath(string path)	{ pathname = path; }
+	void setPageNum(string input)	{ pageNum=input; }
+	void setPubDate(string input)	{ pubDate=input; }
+	void setAuthor(string input)	{ author=input; }
+	void setAux(string input)		{ aux = input; }
+=======
+	void setPageNum(string input){pageNum=input;}
+	void setPubDate(string input){pubDate=input;}
+	void setAuthor(string input){author=input;}
+	void setAux(string input){aux = input;}
+>>>>>>> other
+
+	//get methods
+<<<<<<< local
+	string getFilePath(){ return pathname; }
+	string getPageNum()	{ return pageNum; }
+	string getPubDate()	{ return pubDate; }
+	string getAuthor()	{ return author; }
+	string getAux()		{ return aux; }
+=======
+	string getPageNum(){return pageNum;}
+	string getPubDate(){return pubDate;}
+	string getAuthor(){return author;}
+	string getAux(){return aux;}
+
+
+>>>>>>> other
+
+private:
+<<<<<<< local
+	string pathname;
+=======
+	string path;
+>>>>>>> other
+	string pageNum;
+	string pubDate;
+	string author;
+	string aux;
+};
+
+<<<<<<< local
+=======
+DocumentData::DocumentData(string pathToFile="")
+{
+//	Node();
+	this->path = pathToFile;
+}
+
+DocumentData::~DocumentData()
+{
+}
+
+>>>>>>> other
+#endif

@@ -1,0 +1,53 @@
+<<<<<<< local
+﻿Build started 5/19/2013 3:01:40 AM.
+     1>Project "C:\Users\Douglas\Documents\Quasar\Quasar\Quasar.vcxproj" on node 2 (Build target(s)).
+=======
+﻿Build started 5/19/2013 3:00:16 AM.
+     1>Project "C:\Users\james\Gamma\project\sbccquasar\Quasar\Quasar.vcxproj" on node 2 (Build target(s)).
+>>>>>>> other
+     1>ClCompile:
+<<<<<<< local
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Main.cpp MainWindow.cpp SearchManager.cpp Splash.cpp
+=======
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Main.cpp MainWindow.cpp Splash.cpp
+>>>>>>> other
+         Main.cpp
+     1>Main.cpp(54): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+         MainWindow.cpp
+<<<<<<< local
+         SearchManager.cpp
+=======
+>>>>>>> other
+         Splash.cpp
+         Generating Code...
+       Link:
+<<<<<<< local
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Douglas\Documents\Quasar\Debug\Quasar.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Quasar.MainWindow.resources /ASSEMBLYRESOURCE:Debug\Quasar.Splash.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Douglas\Documents\Quasar\Debug\Quasar.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\ContactData.obj
+=======
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\james\Gamma\project\sbccquasar\Debug\Quasar.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Quasar.MainWindow.resources /ASSEMBLYRESOURCE:Debug\Quasar.Splash.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\james\Gamma\project\sbccquasar\Debug\Quasar.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\ContactData.obj
+>>>>>>> other
+         Debug\DocumentData.obj
+         Debug\Main.obj
+         Debug\MainWindow.obj
+         Debug\Node.obj
+         Debug\NodeManager.obj
+         Debug\PictureData.obj
+         Debug\SearchManager.obj
+         Debug\Splash.obj
+         Debug\WebsiteData.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+<<<<<<< local
+         Quasar.vcxproj -> C:\Users\Douglas\Documents\Quasar\Debug\Quasar.exe
+     1>Done Building Project "C:\Users\Douglas\Documents\Quasar\Quasar\Quasar.vcxproj" (Build target(s)).
+=======
+         Quasar.vcxproj -> C:\Users\james\Gamma\project\sbccquasar\Debug\Quasar.exe
+     1>Done Building Project "C:\Users\james\Gamma\project\sbccquasar\Quasar\Quasar.vcxproj" (Build target(s)).
+>>>>>>> other
+
+Build succeeded.
+
+<<<<<<< local
+Time Elapsed 00:00:09.18
+=======
+Time Elapsed 00:00:04.23
+>>>>>>> other
