@@ -11,7 +11,7 @@ Running this executable may trigger your antivirus program. This is because the 
 Requires Microsoft .NET 4.5
 
 ## Building
-This project was originally created in Microsoft Visual Studio 2010 or 2013. You should be able to import it and build.
+Open Quasar.sln in Microsoft Visual Studio 2012 to build and run.
 
 ## Notes
 The file _Quasar.dat located in the Quasar directory is where data will be stored by default.
