@@ -20,13 +20,13 @@
 #define CONTACTDATA_H
 
 #include <string>
-using namespace std;
+using std::string;
 
 class ContactData
 {
 public:
 	ContactData() {}
-	ContactData(string, string, string, string);
+	ContactData(string firstName, string lastName, string phone, string email);
 	~ContactData();
 
 	// set methods

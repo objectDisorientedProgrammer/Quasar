@@ -20,12 +20,12 @@
 #define DOCUMENTDATA_H
 
 #include <string>
-using namespace std;
+using std::string;
 
 class DocumentData
 {
 public:
-	DocumentData(string="");
+	DocumentData(string pathToFile="");
 	~DocumentData();
 
 	//set methods
